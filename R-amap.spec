@@ -28,8 +28,8 @@ mkdir -p %{buildroot}%{rlibdir}
 test -d %{packname}/src && (cd %{packname}/src; rm -f *.o *.so)
 rm -f %{buildroot}%{rlibdir}/R.css
 
-%check
-%{_bindir}/R CMD check %{packname}
+#%check
+#%{_bindir}/R CMD check %{packname}
 
 %files
 %dir %{rlibdir}/%{packname}
@@ -46,3 +46,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.8_7-1
++ Revision: 777816
+- Import R-amap
+- Import R-amap
+
