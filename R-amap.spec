@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.8_7
+Version:          0.8.7
 Release:          1
 Summary:          Another Multidimensional Analysis Package
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.8-7.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/amap_0.8-7.tar.gz
 Requires:         R-Biobase 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-Biobase 
@@ -53,4 +53,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 777816
 - Import R-amap
 - Import R-amap
+
 
