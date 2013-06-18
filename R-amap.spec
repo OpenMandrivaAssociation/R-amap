@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.8_7
-Release:          1
+Release:          2
 Summary:          Another Multidimensional Analysis Package
 Group:            Sciences/Mathematics
 License:          GPL
